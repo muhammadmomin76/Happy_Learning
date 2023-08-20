@@ -29,10 +29,15 @@ button {
 }
 
 header {
+  background-color: white;
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 18px 10%;
+  top: 0;
+  height: 60px;
 }
 
 .nav {
@@ -71,7 +76,11 @@ header {
 
 
 .body-container{
+  margin-top: 60px;
+  position: relative;
     display: flex;
-    background: #F5EDEC;
-    height: 100vh;
+    background : #F5EDEC;
+    height: 100%;
+    color: black;
+
 }
