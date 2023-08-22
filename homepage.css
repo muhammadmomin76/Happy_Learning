@@ -69,9 +69,19 @@ header {
   margin: 10px;
 }
 
-
 .body-container{
     display: flex;
     background: #F5EDEC;
     height: 100vh;
+}
+h1{
+  color: #EA512E;
+  font-size: 39px;
+  font-family: Catamaran;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 42.50px;
+  word-wrap: break-word;
+  margin :100px;
+
 }
