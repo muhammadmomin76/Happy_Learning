@@ -29,8 +29,9 @@ button {
 }
 
 header {
-  background-color: white;
   position: fixed;
+  background-color: white;  
+  z-index: 999; /* Adjust the value as needed */
   width: 100%;
   display: flex;
   justify-content: space-between;
