@@ -31,7 +31,7 @@ button {
 header {
   position: fixed;
   background-color: white;  
-  z-index: 999; /* Adjust the value as needed */
+  z-index: 100; /* Adjust the value as needed */
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -104,6 +104,7 @@ header {
 }
 
 .s_shape{
+  
   width: 210px;
   height: 236.91px;
   flex-shrink: 0;
@@ -111,6 +112,7 @@ header {
 }
 
 .dots{
+
   width: 100px;
   height: 120px;
   flex-shrink: 0;
@@ -121,6 +123,7 @@ header {
 
 .title{
 
+  
   margin-top: 190px;
   margin-left: 151px;
   margin-right: 626px;
@@ -151,3 +154,9 @@ header {
   height: 0px;
 }
 
+
+.b_shape{
+  width: 600px;
+  height: 737px;
+  flex-shrink: 0;
+}
