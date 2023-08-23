@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 
 * {
   margin: 0;
@@ -97,7 +99,7 @@ header {
   margin-top:  52px;
   position: relative;
   margin-bottom: 837px;
-  margin-left:  82px;
+  margin-left:  190px;
   width: 428px;
   height: 63px;
   flex-shrink: 0;
@@ -124,11 +126,11 @@ header {
 .title{
 
   
-  margin-top: 190px;
-  margin-left: 151px;
+  margin-top: 250px;
+  margin-left: 280px;
   margin-right: 626px;
   margin-bottom: 551px;
-  display: flex;
+  
   width: 663px;
   height: 211px;
   flex-direction: column;
@@ -156,7 +158,105 @@ header {
 
 
 .b_shape{
-  width: 600px;
-  height: 737px;
+  width: 650px;
+  height: 650px;
   flex-shrink: 0;
+  margin-top: 72px;
+  margin-bottom: 143px;
+  margin-left: 1230px;
+  margin-right: 300px;
+}
+
+.description{
+  margin-top: 377px;
+  margin-bottom: 280px;
+  margin-left: 295px;
+  margin-right: 626px;
+  position: absolute;
+  width: 650px;
+  height: 291px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #000;
+  text-align: justify;
+  font-family: 'Merriweather', serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43.5px; /* 197.727% */
+}
+
+
+/* Add this media query at the end of your CSS to apply styles for smaller screens */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  header {
+    padding: 10px 5%; /* Adjust header padding for smaller screens */
+  }
+
+  .nav li {
+    padding: 0px 10px; /* Adjust nav item padding for smaller screens */
+  }
+
+  .contact {
+    padding: 10px; /* Adjust contact button padding for smaller screens */
+    margin: 5px;
+  }
+
+  .body-container {
+    margin-top: 120px; /* Adjust top margin for smaller screens */
+  }
+
+  .m_logo {
+    margin-top: 20px; /* Adjust margin for logo on smaller screens */
+    margin-bottom: 0; /* Remove bottom margin for logo */
+    margin-left: auto; /* Center the logo horizontally */
+    margin-right: auto;
+    width: 60%; /* Make logo width responsive */
+    max-width: 250px; /* Set maximum width for the logo */
+    height: auto; /* Make logo height responsive */
+  }
+
+  .s_shape {
+    display: none; /* Hide the small shape image on smaller screens */
+  }
+
+  .dots {
+    display: none; /* Hide the dots image on smaller screens */
+  }
+
+  .title {
+    margin-top: 40px; /* Adjust title margin for smaller screens */
+    margin-left: 20px; /* Adjust title margin for smaller screens */
+    margin-right: 20px;
+    margin-bottom: 30px; /* Adjust bottom margin for title */
+    width: 100%; /* Make title width full width */
+    font-size: 24px; /* Adjust font size for smaller screens */
+    line-height: 1.2; /* Adjust line height for readability */
+  }
+
+  .mid {
+    flex-direction: column; /* Stack the elements in the middle section */
+  }
+
+  .b_shape {
+    margin-top: 40px; /* Adjust margin for the bottom shape */
+    width: 80%; /* Make the bottom shape responsive */
+    max-width: 400px; /* Set maximum width for the bottom shape */
+    height: auto; /* Make bottom shape height responsive */
+  }
+
+  .description {
+    margin-top: 20px; /* Adjust margin for the description */
+    margin-bottom: 30px; /* Adjust bottom margin for description */
+    margin-left: 20px; /* Adjust margin for smaller screens */
+    margin-right: 20px;
+    width: 100%; /* Make description width full width */
+    font-size: 18px; /* Adjust font size for smaller screens */
+    line-height: 1.5; /* Adjust line height for readability */
+  }
 }
