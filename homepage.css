@@ -77,11 +77,10 @@ header {
 
 .body-container{
   margin-top: 60px;
-  position: relative;
-    display: flex;
-    background : #F5EDEC;
-    height: 100%;
-    color: black;
+  display: flex;
+  background : #F5EDEC;
+  height: 100%;
+  color: black;
 
 }
 h1{
@@ -95,3 +94,19 @@ h1{
   margin :100px;
 
 }
+
+
+.Top{
+  
+  position: absolute;
+}
+
+.Top img{
+  
+  flex-shrink: 0;
+  padding-top: 52px;
+  padding-bottom: 837px;
+  padding-left: 292px;
+  padding-right: 720px;
+}
+
