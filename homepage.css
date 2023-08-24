@@ -182,3 +182,71 @@ nav ul li a:hover {
 }
 
 
+
+
+  @media only screen and (max-width: 1300px)  {
+
+    .main{
+      max-width: 300px;
+      max-height: 300px;
+      margin-top: 300px;
+    
+    }
+
+
+   
+ 
+  
+}
+
+@media only screen and (max-width: 1149px)  {
+
+  .main{
+    visibility: hidden;
+  }
+
+
+  
+
+
+}
+
+@media only screen and (max-width: 997px)  {
+
+  .dots{
+    visibility: hidden;
+  }
+
+}
+
+@media only screen and (max-width: 824px)  {
+
+  
+
+ 
+
+  .title{
+    margin-left: 80px;
+  }
+  .description{
+    margin-left: 90px;
+    
+  }
+
+  .main_logo{
+    margin-left: 20px;
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
