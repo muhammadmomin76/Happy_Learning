@@ -82,7 +82,7 @@ header {
   display: flex;
   flex-direction: column;
   background : #F5EDEC;
-  height: 100%;
+  width: 100%;
   color: black;
 
 }
