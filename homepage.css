@@ -242,7 +242,37 @@ nav ul li a:hover {
 
 }
 
+@media only screen and (max-width: 534px)  {
 
+  
+
+ 
+
+  .title{
+    margin: 0px;
+    font-size: 16px;
+    margin-left: 70px;
+    
+  }
+  .description{
+    margin-left: 70px;
+    font-size: 14px;
+    width: 400px;
+
+  }
+
+  .main_logo{
+    margin-top: 90px;
+    margin-left: 0;
+    object-fit: cover;
+    width: 300px;
+   height: 40px;
+  }
+
+
+
+
+}
 
 
 
