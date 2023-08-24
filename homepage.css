@@ -82,7 +82,7 @@ header {
   display: flex;
   flex-direction: column;
   background : #F5EDEC;
-  height: 100%;
+  width: 100%;
   color: black;
 
 }
@@ -157,7 +157,6 @@ header {
 
 
 .b_shape{
-  position: relative;
   width: 650px;
   height: 650px;
   flex-shrink: 0;
@@ -170,7 +169,7 @@ header {
   margin-top: 377px;
   margin-bottom: 280px;
   margin-left: 295px;
-  margin-right: 626px;
+  margin-right: 0px;
   position: absolute;
   width: 650px;
   height: 291px;
