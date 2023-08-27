@@ -176,11 +176,36 @@ flex-shrink: 0;
   justify-content: space-between;
 }
 
+/* .row-5{
 
+} */
+.c-container{
+  overflow-y: scroll;
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.ct-logo{
+  width: 227px;
+  height: 227px;
+  flex-shrink: 0;
+}
 
+.insta{
+  width: 62px;
+  height: 61px;
+  flex-shrink: 0;
+}
 
+.whatsapp{
+  width: 62px;
+  height: 62px;
+  flex-shrink: 0;
+}
 
-
-
-
-
+.email{
+  width: 62px;
+  height: 62px;
+  flex-shrink: 0;
+}
