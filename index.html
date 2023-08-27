@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Happy Learning | Home</title>
+    <title>Happy Learning </title>
     <link rel="stylesheet" href="homepage.css" />
     <link rel="stylesheet" href="coursepage.css">
     <link rel="stylesheet" href="teacher.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
     
@@ -14,16 +15,16 @@
       <img src="logo.png" class="menu-icon" onclick="togglemenu()">
       <nav>
         <ul class="menulist">
-          <li><a href="" style="color: #ea512e" >Home</a></li>
-          <li><a href="" class="course">Courses</a></li>
-          <li><a href="">Teachers</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#home" >Home</a></li>
+          <li><a href="#course" class="course">Courses</a></li>
+          <li><a href="#teachers">Teachers</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
       
     </div>
 
-    <div class="m-containter">
+    <div class="m-containter" id="home">
 
       <div class="top-h">
           <img src="logo.png" alt="" class="s-shape">
@@ -51,7 +52,7 @@
       
     </div>
     
-    <div class="c-container " id="coursesSection" >
+    <div class="c-container " id="course" >
 
       <div class="row-4">
         <img src="logo.png" alt="" class="c-logo">
@@ -255,7 +256,7 @@
       
 
 
- <div class="t-container" id="targetDiv">
+ <div class="t-container" id="teachers">
       <div class="row-11">
         <img src="logo.png" alt="" class="c-logo">
         <h1 class="t-title">"Meet Our Teachers"</h1>
