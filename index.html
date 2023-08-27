@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="homepage.css" />
     <link rel="stylesheet" href="coursepage.css">
     <link rel="stylesheet" href="teacher.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
   </head>
   <body>
-    
+    <!-- nav bar -->
     <div class="navbar">
       <img src="logo.png" class="menu-icon" onclick="togglemenu()">
       <nav>
@@ -21,11 +21,10 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      
     </div>
 
+    <!-- home page  -->
     <div class="m-containter" id="home">
-
       <div class="top-h">
           <img src="logo.png" alt="" class="s-shape">
           <img src="main_logo.png" alt="" class="m-logo">
@@ -46,12 +45,10 @@
 
           <img src="kids.png" alt="" class="kids-h">
           <img src="owl.png" alt="" class="owl-h">
-
-
       </div>
-      
     </div>
     
+    <!-- course -->
     <div class="c-container " id="course" >
 
       <div class="row-4">
@@ -189,8 +186,6 @@
 
       </div>
 
-
-      
       <div class="row-7">
 
         <div class="c-7">
@@ -255,8 +250,8 @@
     </div>
       
 
-
- <div class="t-container" id="teachers">
+  <!-- teachers -->
+  <div class="t-container" id="teachers">
       <div class="row-11">
         <img src="logo.png" alt="" class="c-logo">
         <h1 class="t-title">"Meet Our Teachers"</h1>
@@ -360,38 +355,13 @@
         
       </div>
 
+      <!-- contact -->
+      <div class="">
+
+
+      </div>
 
       
     </div>
-      
-     
-      
-      
-    
-    <script>
-     $("course").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".c-container").offset().top},
-        'slow');
-        });
-    </script>
-    
-    
-    
-    
-   
-    
-    
-    
-
-
-    
-    
-    
-    
-
-    
-
-  </script>
   </body>
 </html>
