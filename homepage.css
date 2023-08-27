@@ -9,6 +9,7 @@
 html{
   scroll-behavior: smooth;
 }
+
 body {
   background: #f5edec;
 }
@@ -30,10 +31,6 @@ body {
   width: 50px;
   cursor: pointer;
   padding-right: 60px;
-}
-
-.menulist{
-  margin-left: 240px;
 }
 
 .menu-icon {
