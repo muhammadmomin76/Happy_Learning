@@ -176,9 +176,11 @@ flex-shrink: 0;
   justify-content: space-between;
 }
 
-/* .row-5{
+.row-5{
+  display: flex;
+  flex-direction: row;
+}
 
-} */
 .c-container{
   overflow-y: scroll;
   width: 100%;
@@ -196,16 +198,19 @@ flex-shrink: 0;
   width: 62px;
   height: 61px;
   flex-shrink: 0;
+  margin-left: 375px;
 }
 
 .whatsapp{
   width: 62px;
   height: 62px;
   flex-shrink: 0;
+  margin-left: 250px;
 }
 
 .email{
   width: 62px;
   height: 62px;
   flex-shrink: 0;
+  margin-left: 300px;
 }
