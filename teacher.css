@@ -21,7 +21,7 @@
     color: #EA512E;
     text-align: center;
     font-family: 'Chango', sans-serif;
-    font-size: 30px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 400;
     line-height: 41.5px; /* 138.333% */
@@ -123,4 +123,16 @@
     line-height: 42.5px; /* 141.667% */
     text-transform: capitalize;
 }
+
+.teacher-1{
+    display: flex;
+    flex-direction: column;
+    background: red;
+    width: 1132px;
+    height: 254px;
+    flex-shrink: 0;
+    margin: auto;
+}
+
+
 
