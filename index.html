@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="teacher.css">
   </head>
   <body>
+    
     <div class="navbar">
       <img src="logo.png" class="menu-icon" onclick="togglemenu()">
       <nav>
-        <ul id="menulist">
-          <li><a href="" style="color: #ea512e">Home</a></li>
-          <li><a href="courses.html">Courses</a></li>
+        <ul class="menulist">
+          <li><a href="" style="color: #ea512e" >Home</a></li>
+          <li><a href="" class="course">Courses</a></li>
           <li><a href="">Teachers</a></li>
           <li><a href="">Contact</a></li>
         </ul>
@@ -50,7 +51,7 @@
       
     </div>
     
-    <div class="c-container">
+    <div class="c-container " id="coursesSection" >
 
       <div class="row-4">
         <img src="logo.png" alt="" class="c-logo">
@@ -254,7 +255,7 @@
       
 
 
-    <div class="t-container">
+ <div class="t-container" id="targetDiv">
       <div class="row-11">
         <img src="logo.png" alt="" class="c-logo">
         <h1 class="t-title">"Meet Our Teachers"</h1>
@@ -366,7 +367,17 @@
       
       
     
-
+    <script>
+     $("course").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".c-container").offset().top},
+        'slow');
+        });
+    </script>
+    
+    
+    
+    
    
     
     

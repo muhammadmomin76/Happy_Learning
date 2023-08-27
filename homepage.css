@@ -30,7 +30,12 @@ body {
   padding-right: 60px;
 }
 
+.menulist{
+  margin-left: 240px;
+}
+
 .menu-icon {
+  margin-left: 400px;
   color: white;
   width: 25px;
   cursor: pointer;
@@ -58,6 +63,7 @@ nav ul li a:hover {
 }
 
 .m-containter {
+  overflow-y: scroll;
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -84,7 +90,7 @@ nav ul li a:hover {
   width: 428px;
   height: 63px;
   flex-shrink: 0;
-  margin-left: 355px;
+  margin-left: 300px;
   margin-top: 38px;
 }
 
@@ -129,7 +135,7 @@ nav ul li a:hover {
 }
 
 .description-h {
-  margin-left: 18px;
+  margin-left: 60px;
   margin-top: 50px;
   color: #000;
   text-align: justify;

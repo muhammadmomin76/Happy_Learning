@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
 
 .c-container{
+    overflow-y: scroll;
     width: 100%;
     min-height: 100vh;
     box-sizing: border-box;
